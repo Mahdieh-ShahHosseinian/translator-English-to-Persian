@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="590.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="translation_package.TranslatorController">
+   <children>
+      <TextArea fx:id="enterTextArea" layoutX="14.0" layoutY="66.0" prefHeight="362.0" prefWidth="400.0" promptText="Enter text" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="translationTextArea" editable="false" layoutX="423.0" layoutY="66.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="362.0" prefWidth="400.0" promptText="ترجمه" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="openButton" layoutX="14.0" layoutY="466.0" mnemonicParsing="false" onAction="#openOrder" prefHeight="35.0" prefWidth="80.0" text="Open" />
+      <Button layoutX="423.0" layoutY="466.0" mnemonicParsing="false" onAction="#translateOrder" prefHeight="35.0" prefWidth="80.0" text="Translate" />
+      <Label fx:id="showTranslationTime" layoutX="521.0" layoutY="466.0" prefHeight="35.0" prefWidth="200.0" textFill="#e50404">
+         <font>
+            <Font name="Bauhaus 93" size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

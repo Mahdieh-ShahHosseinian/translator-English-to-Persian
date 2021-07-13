@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="590.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="translation_package.ShowTreeController">
+   <children>
+      <TreeView fx:id="treeView" layoutX="-1.0" prefHeight="590.0" prefWidth="841.0" style="-fx-background-color: #0096f5;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></TreeView>
+      <Button fx:id="backButton" layoutX="737.0" layoutY="545.0" mnemonicParsing="false" onAction="#backToTranslator" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: #0096f5;" text="back" textFill="WHITE">
+         <font>
+            <Font name="Dubai Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="590.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="translation_package.MenuController">
+   <children>
+      <Button layoutX="350.0" layoutY="166.0" mnemonicParsing="false" onAction="#englishToPersian" text="English to Persian" />
+      <Button layoutX="350.0" layoutY="225.0" mnemonicParsing="false" onAction="#persianToEnglish" text="Persian to English" />
+      <Button layoutX="375.0" layoutY="282.0" mnemonicParsing="false" text="Settings" />
+   </children>
+</AnchorPane>
